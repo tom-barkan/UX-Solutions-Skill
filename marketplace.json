@@ -4,7 +4,7 @@
     "name": "Tom Barkan",
     "url": "https://github.com/tom-barkan"
   },
-  "homepage": "https://github.com/tom-barkan/UX-Solutions-Skill",
+  "homepage": "https://github.com/tom-barkan/ux-advisor-plugin",
   "plugins": [
     {
       "name": "ux-advisor",
@@ -12,7 +12,7 @@
       "version": "1.0.0",
       "source": {
         "type": "git",
-        "url": "https://github.com/tom-barkan/UX-Solutions-Skill"
+        "url": "https://github.com/tom-barkan/ux-advisor-plugin"
       }
     }
   ]

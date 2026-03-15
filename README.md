@@ -39,7 +39,7 @@ This plugin does that research for you in minutes, then gives you something you 
 In Claude Code, add the marketplace and install the plugin:
 
 ```
-/plugin add-marketplace https://raw.githubusercontent.com/tom-barkan/UX-Solutions-Skill/main/marketplace.json
+/plugin add-marketplace https://raw.githubusercontent.com/tom-barkan/ux-advisor-plugin/main/marketplace.json
 /plugin install ux-advisor
 ```
 
@@ -50,9 +50,9 @@ That's it. The plugin is immediately available in your project.
 If you prefer to install manually:
 
 ```bash
-git clone https://github.com/tom-barkan/UX-Solutions-Skill.git
+git clone https://github.com/tom-barkan/ux-advisor-plugin.git
 mkdir -p your-project/.claude/skills
-cp -r UX-Solutions-Skill/skills/ux-advisor your-project/.claude/skills/ux-advisor
+cp -r ux-advisor-plugin/skills/ux-advisor your-project/.claude/skills/ux-advisor
 ```
 
 ## How It Works
