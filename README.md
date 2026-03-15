@@ -1,9 +1,9 @@
 <p align="center">
-  <img src="assets/hero-banner.svg" alt="UX Solve — Claude Code Skill" width="100%">
+  <img src="assets/hero-banner.svg" alt="UX Advisor — Claude Code Skill" width="100%">
 </p>
 
 <p align="center">
-  <strong>Stop guessing. Start researching. Ship better UX.</strong>
+  <strong>Your AI-powered UX research assistant. Stop guessing. Start shipping.</strong>
 </p>
 
 <p align="center">
@@ -17,7 +17,7 @@
 
 ## What is this?
 
-**UX Solve** is an open-source [Claude Code](https://claude.ai/claude-code) skill that turns Claude into a UX research assistant. Instead of guessing at UI solutions or spending hours browsing design systems, you describe your problem and get:
+**UX Advisor** is an open-source [Claude Code](https://claude.ai/claude-code) skill that turns Claude into a UX research assistant. Instead of guessing at UI solutions or spending hours browsing design systems, you describe your problem and get:
 
 1. A **discovery interview** to understand your exact constraints
 2. **Research** across the world's top design systems and products
@@ -41,14 +41,14 @@ Copy the skill into your project:
 git clone https://github.com/tom-barkan/UX-Solutions-Skill.git
 
 # Copy the skill into your project
-cp -r UX-Solutions-Skill/.claude/skills/ux-solve your-project/.claude/skills/
+cp -r UX-Solutions-Skill/.claude/skills/ux-advisor your-project/.claude/skills/
 ```
 
 Or add it directly:
 
 ```bash
 mkdir -p your-project/.claude/skills
-cp -r path/to/UX-Solutions-Skill/.claude/skills/ux-solve your-project/.claude/skills/
+cp -r path/to/UX-Solutions-Skill/.claude/skills/ux-advisor your-project/.claude/skills/
 ```
 
 That's it. Next time you open Claude Code in your project, the skill is available.
@@ -60,7 +60,7 @@ That's it. Next time you open Claude Code in your project, the skill is availabl
 The skill starts by asking you the right questions — platform, tech stack, theme, current experience, user profile, and constraints. It also scans your codebase automatically to understand your framework, component library, and existing patterns.
 
 ```
-> /ux-solve I need a better way to handle complex data filtering
+> /ux-advisor I need a better way to handle complex data filtering
 
 Claude: Before I research solutions, let me understand your context:
   - What platform? (web, mobile, desktop)
@@ -108,22 +108,22 @@ Then ask Claude to start building — it follows the plan and implements directl
 
 ```bash
 # Complex UI patterns
-/ux-solve data table with 10k+ rows, sorting, inline editing, and multi-select
+/ux-advisor data table with 10k+ rows, sorting, inline editing, and multi-select
 
 # Navigation challenges
-/ux-solve my SaaS app has 15+ nav items and it's a mess on mobile
+/ux-advisor my SaaS app has 15+ nav items and it's a mess on mobile
 
 # Search & filtering
-/ux-solve faceted search for e-commerce with 200+ filter options across 8 categories
+/ux-advisor faceted search for e-commerce with 200+ filter options across 8 categories
 
 # Onboarding
-/ux-solve first-time user onboarding flow for a complex B2B analytics tool
+/ux-advisor first-time user onboarding flow for a complex B2B analytics tool
 
 # Forms
-/ux-solve multi-step form wizard with conditional logic and progress saving
+/ux-advisor multi-step form wizard with conditional logic and progress saving
 
 # Data visualization
-/ux-solve interactive dashboard with 12 charts that needs to work on tablets too
+/ux-advisor interactive dashboard with 12 charts that needs to work on tablets too
 ```
 
 ## Requirements
@@ -136,7 +136,7 @@ Then ask Claude to start building — it follows the plan and implements directl
 Found a way to make the skill better? Contributions are welcome.
 
 1. Fork the repo
-2. Edit `.claude/skills/ux-solve/SKILL.md`
+2. Edit `.claude/skills/ux-advisor/SKILL.md`
 3. Test with a few UX problems
 4. Submit a PR
 

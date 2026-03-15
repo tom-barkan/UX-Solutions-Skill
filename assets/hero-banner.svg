@@ -74,7 +74,7 @@
 
     <!-- Terminal content -->
     <text x="16" y="60" font-family="monospace" font-size="13" fill="#d4a574">$</text>
-    <text x="30" y="60" font-family="monospace" font-size="13" fill="#e8e8e8"> /ux-solve complex data table with filters</text>
+    <text x="30" y="60" font-family="monospace" font-size="13" fill="#e8e8e8"> /ux-advisor complex data table with filters</text>
 
     <text x="16" y="90" font-family="monospace" font-size="12" fill="#888">Phase 1: Discovery Interview</text>
     <text x="16" y="110" font-family="monospace" font-size="12" fill="#28c840">  &#10003;</text>
@@ -105,7 +105,7 @@
   </g>
 
   <text x="60" y="170" font-family="system-ui, -apple-system, sans-serif" font-weight="700" font-size="46" fill="#ffffff" letter-spacing="-1">
-    UX Solve
+    UX Advisor
   </text>
   <text x="60" y="210" font-family="system-ui, -apple-system, sans-serif" font-weight="400" font-size="18" fill="#d4a574">
     Claude Code Skill

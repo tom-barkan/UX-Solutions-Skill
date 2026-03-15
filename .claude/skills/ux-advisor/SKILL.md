@@ -1,5 +1,5 @@
 ---
-name: ux-solve
+name: ux-advisor
 description: Solve UX/UI problems by first gathering context (platform, theme, existing experience), then researching how major software providers (Google Material Design, Apple HIG, Microsoft Fluent, Shopify Polaris, Atlassian, etc.) handle similar patterns, presenting multiple visual solutions as an interactive HTML page for the user to choose from, and finally creating a full implementation plan. Use this skill whenever the user describes a UX challenge, asks how to design a UI component, needs UI pattern inspiration, wants to improve usability or accessibility of a feature, asks about best practices for a specific interaction pattern, or mentions struggling with a design decision. Even if they don't say "UX" explicitly — if they're asking about dropdowns, modals, navigation, forms, tables, onboarding flows, search, filters, empty states, error handling UI, or any user-facing interaction pattern, this skill applies.
 argument-hint: [describe your UX problem]
 allowed-tools: WebSearch, WebFetch, Read, Grep, Glob, Write, Bash
