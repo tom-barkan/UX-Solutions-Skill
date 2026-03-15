@@ -152,8 +152,3 @@ Ideas for improvement:
 
 [MIT](LICENSE)
 
----
-
-<p align="center">
-  Built with <a href="https://claude.ai/claude-code">Claude Code</a>
-</p>
