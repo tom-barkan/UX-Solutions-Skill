@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/hero-banner.svg" alt="UX Advisor — Claude Code Skill" width="100%">
+  <img src="assets/hero-banner.svg" alt="UX Advisor — Claude Code Plugin" width="100%">
 </p>
 
 <p align="center">
@@ -36,13 +36,14 @@ This plugin does that research for you in minutes, then gives you something you 
 
 ### One-command install (recommended)
 
-In Claude Code, just run:
+In Claude Code, add the marketplace and install the plugin:
 
 ```
+/plugin add-marketplace https://raw.githubusercontent.com/tom-barkan/UX-Solutions-Skill/main/marketplace.json
 /plugin install ux-advisor
 ```
 
-That's it. The skill is immediately available in your project.
+That's it. The plugin is immediately available in your project.
 
 ### Manual install
 
@@ -50,14 +51,15 @@ If you prefer to install manually:
 
 ```bash
 git clone https://github.com/tom-barkan/UX-Solutions-Skill.git
-cp -r UX-Solutions-Skill/skills/ux-advisor your-project/.claude/skills/
+mkdir -p your-project/.claude/skills
+cp -r UX-Solutions-Skill/skills/ux-advisor your-project/.claude/skills/ux-advisor
 ```
 
 ## How It Works
 
 ### Phase 1: Discovery Interview
 
-The skill starts by asking you the right questions — platform, tech stack, theme, current experience, user profile, and constraints. It also scans your codebase automatically to understand your framework, component library, and existing patterns.
+The plugin starts by asking you the right questions — platform, tech stack, theme, current experience, user profile, and constraints. It also scans your codebase automatically to understand your framework, component library, and existing patterns.
 
 ```
 > /ux-advisor I need a better way to handle complex data filtering
@@ -129,7 +131,7 @@ Then ask Claude to start building — it follows the plan and implements directl
 ## Requirements
 
 - [Claude Code](https://claude.ai/claude-code) CLI
-- Web search enabled (the skill uses `WebSearch` and `WebFetch` to research design systems)
+- Web search enabled (the plugin uses `WebSearch` and `WebFetch` to research design systems)
 
 ## Contributing
 
