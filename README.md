@@ -17,7 +17,7 @@
 
 ## What is this?
 
-**UX Advisor** is an open-source [Claude Code](https://claude.ai/claude-code) skill that turns Claude into a UX research assistant. Instead of guessing at UI solutions or spending hours browsing design systems, you describe your problem and get:
+**UX Advisor** is an open-source [Claude Code](https://claude.ai/claude-code) plugin that turns Claude into a UX research assistant. Instead of guessing at UI solutions or spending hours browsing design systems, you describe your problem and get:
 
 1. A **discovery interview** to understand your exact constraints
 2. **Research** across the world's top design systems and products
@@ -30,28 +30,28 @@ It draws from **Google Material Design**, **Apple HIG**, **Microsoft Fluent**, *
 
 Every UX problem you're facing has likely been solved — and solved well — by a team with a dedicated research budget. The patterns are documented across design systems, research articles, and production apps. But finding, comparing, and synthesizing all of that takes hours.
 
-This skill does that research for you in minutes, then gives you something you can actually ship.
+This plugin does that research for you in minutes, then gives you something you can actually ship.
 
 ## Installation
 
-Copy the skill into your project:
+### One-command install (recommended)
+
+In Claude Code, just run:
+
+```
+/plugin install ux-advisor
+```
+
+That's it. The skill is immediately available in your project.
+
+### Manual install
+
+If you prefer to install manually:
 
 ```bash
-# Clone the repo
 git clone https://github.com/tom-barkan/UX-Solutions-Skill.git
-
-# Copy the skill into your project
-cp -r UX-Solutions-Skill/.claude/skills/ux-advisor your-project/.claude/skills/
+cp -r UX-Solutions-Skill/skills/ux-advisor your-project/.claude/skills/
 ```
-
-Or add it directly:
-
-```bash
-mkdir -p your-project/.claude/skills
-cp -r path/to/UX-Solutions-Skill/.claude/skills/ux-advisor your-project/.claude/skills/
-```
-
-That's it. Next time you open Claude Code in your project, the skill is available.
 
 ## How It Works
 
@@ -133,10 +133,10 @@ Then ask Claude to start building — it follows the plan and implements directl
 
 ## Contributing
 
-Found a way to make the skill better? Contributions are welcome.
+Found a way to make the plugin better? Contributions are welcome.
 
 1. Fork the repo
-2. Edit `.claude/skills/ux-advisor/SKILL.md`
+2. Edit `skills/ux-advisor/SKILL.md`
 3. Test with a few UX problems
 4. Submit a PR
 

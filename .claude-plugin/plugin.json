@@ -1,0 +1,25 @@
+{
+  "name": "ux-advisor",
+  "version": "1.0.0",
+  "description": "Solve UX/UI problems by researching how top design systems (Material, Apple HIG, Fluent, Polaris, etc.) handle similar patterns, presenting 3+ visual solutions as interactive HTML previews, and creating implementation plans tailored to your codebase.",
+  "author": {
+    "name": "Tom Barkan",
+    "url": "https://github.com/tom-barkan"
+  },
+  "homepage": "https://github.com/tom-barkan/UX-Solutions-Skill",
+  "repository": "https://github.com/tom-barkan/UX-Solutions-Skill",
+  "license": "MIT",
+  "keywords": [
+    "ux",
+    "ui",
+    "design",
+    "design-systems",
+    "accessibility",
+    "user-experience",
+    "material-design",
+    "apple-hig",
+    "fluent-ui",
+    "wcag"
+  ],
+  "skills": "./skills/"
+}
